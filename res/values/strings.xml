@@ -26,8 +26,10 @@
     <string name="loading_title">Please wait</string>
     <string name="loading_description">Downloading data</string>
 
-    <string name="settings_title">Settings</string>
-    <string name="settings_update_interval">update interval</string>
-    <string name="settings_update_interval_summary">update interval bla bla</string>
+    <string name="preferences_title">Settings</string>
+    <string name="preferences_update_interval">update interval</string>
+    <string name="preferences_update_interval_summary">update interval bla bla</string>
+
+    <string name="refresh_title">refresh</string>
 
 </resources>
