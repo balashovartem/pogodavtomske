@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pogodavtomske</string>
+    <string name="current_weather">Current weather</string>
+
+    <string name="current_temperature">Temperature:</string>
+    <string name="temperature_units">°C</string>
+
+    <string name="current_wind">Wind:</string>
+    <string name="wind_units">m/s</string>
+
+    <string name="current_atmospheric_pressure">Pressure:</string>
+    <string name="atmospheric_pressure_units">mm Hg</string>
+
+    <string name="current_humidity">Humidity:</string>
+    <string name="humidity_units">%</string>
+
+    <string name="forecast">Forecast</string>
+    <string name="forecast_day">Day:</string>
+    <string name="forecast_night">Night:</string>
+    <string name="forecast_wind">Wind:</string>
+    <string name="forecast_atmospheric_pressure">Pressure:</string>
+    <string name="forecast_today">Today</string>
+    <string name="forecast_tomorrow">Tomorrow</string>
+
+    <string name="loading_title">Please wait</string>
+    <string name="loading_description">Downloading data</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_update_interval">update interval</string>
+    <string name="settings_update_interval_summary">update interval bla bla</string>
+
+</resources>

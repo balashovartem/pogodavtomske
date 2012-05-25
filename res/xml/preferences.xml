@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListPreference
+                android:title="@string/settings_update_interval"
+                android:summary="@string/settings_update_interval_summary"
+                android:entries="@array/list_update_interval"
+                android:entryValues="@array/list_update_interval_values"
+                android:key="update_interval" />
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<resources>
+
+    <string-array name="list_update_interval">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string-array name="list_update_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+</resources>
