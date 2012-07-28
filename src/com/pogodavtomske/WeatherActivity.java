@@ -14,9 +14,10 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class WeatherActivity extends Activity {
@@ -32,7 +33,6 @@ public class WeatherActivity extends Activity {
             if (WeatherService.ACTION_CURRENT_WEATHER.contains(action)) {
                 CurrentWeather currentWeather = (CurrentWeather) intent.getParcelableExtra("current");
                 drawCurrentWeather(currentWeather);
-
                 mIsEmpty = false;
                 if (mProgress != null)
                     mProgress.dismiss();
@@ -40,7 +40,6 @@ public class WeatherActivity extends Activity {
             if (WeatherService.ACTION_FORECAST_WEATHER.contains(action)) {
                 ArrayList<ForecastWeather> forecasts = intent.getParcelableArrayListExtra("forecast");
                 drawForecastWeather(forecasts);
-
                 mIsEmpty = false;
                 if (mProgress != null)
                     mProgress.dismiss();
@@ -50,8 +49,6 @@ public class WeatherActivity extends Activity {
                 mIsEmpty = true;
                 if (mProgress != null)
                     mProgress.dismiss();
-
-                Toast.makeText(context, intent.getStringExtra("msg"), Toast.LENGTH_LONG).show();
             }
         }
     };
@@ -126,6 +123,17 @@ public class WeatherActivity extends Activity {
 
         final ImageView weatherImg = (ImageView) findViewById(R.id.current_weather_image);
         weatherImg.setImageBitmap(weather.ImageSrc);
+
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+        String currentDateandTime = sdf.format(new Date());
+
+        setTitle(
+                getResources().getString(getResources().getIdentifier("string/app_name", null, getPackageName())) +
+                        " : " +
+                        getResources().getString(getResources().getIdentifier("string/update", null, getPackageName())) +
+                        " " +
+                        currentDateandTime
+        );
     }
 
     private void drawForecastWeather(List<ForecastWeather> forecasts) {
@@ -137,7 +145,6 @@ public class WeatherActivity extends Activity {
 
             ListView listView = (ListView) findViewById(R.id.forecast);
             listView.setAdapter(adapter);
-
             return;
         }
 

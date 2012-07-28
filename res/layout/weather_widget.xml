@@ -4,103 +4,94 @@
               android:id="@+id/weather_widget"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:layout_marginLeft="5sp"
-              android:layout_marginRight="5sp"
+              android:layout_marginLeft="2sp"
+              android:layout_marginRight="2sp"
               android:orientation="vertical"
-              android:padding="5sp"
+              android:padding="2sp"
               android:background="@drawable/shape_desktop_widget"
         >
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/weather_widget"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginLeft="5sp"
-              android:layout_marginRight="5sp"
-              android:orientation="horizontal"
-              android:padding="5sp"
-        >
-    <ImageView
-            android:id="@+id/widget_weather_image"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:src="@drawable/undefine"
-            android:gravity="center"
-            />
-
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/weather_widget"
                   android:layout_width="fill_parent"
                   android:layout_height="wrap_content"
-                  android:orientation="vertical"
+                  android:layout_marginLeft="5sp"
+                  android:layout_marginRight="5sp"
+                  android:orientation="horizontal"
+                  android:padding="5sp"
             >
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      android:layout_width="fill_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="horizontal"
-                      android:gravity="center"
-                >
-            <TextView
-                    android:id="@+id/widget_temperature"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:textSize="50sp"
-                    android:textColor="#FCC600"
-                    android:text="+13"
-                    />
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:textSize="50sp"
-                    android:textColor="#FCC600"
-                    android:text="@string/temperature_units"
-                    />
-        </LinearLayout>
+        <ImageView
+                android:id="@+id/widget_weather_image"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/undefine"
+                android:gravity="center"
+                />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                       android:layout_width="fill_parent"
                       android:layout_height="wrap_content"
-                      android:gravity="center"
-                      android:orientation="horizontal"
+                      android:orientation="vertical"
                 >
-            <TextView
-                    android:id="@+id/widget_wind"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:layout_marginRight="5sp"
-                    android:textColor="#FCC600"
-                    android:text="0"
-                    />
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:layout_marginRight="10sp"
-                    android:text="@string/wind_units"
-                    />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:gravity="center"
+                    >
+                <TextView
+                        android:id="@+id/widget_temperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:textSize="50sp"
+                        android:textColor="#FCC600"
+                        android:text="+13"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:textSize="50sp"
+                        android:textColor="#FCC600"
+                        android:text="@string/temperature_units"
+                        />
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="center"
+                          android:orientation="horizontal"
+                    >
+                <TextView
+                        android:id="@+id/widget_wind"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="5sp"
+                        android:textColor="#FCC600"
+                        android:text="0"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10sp"
+                        android:text="@string/wind_units"
+                        />
 
-            <TextView
-                    android:id="@+id/widget_pressure"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:layout_marginRight="5sp"
-                    android:textColor="#FCC600"
-                    android:text="0"
-                    />
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:text="@string/atmospheric_pressure_units"
-                    />
+                <TextView
+                        android:id="@+id/widget_pressure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="5sp"
+                        android:textColor="#FCC600"
+                        android:text="0"
+                        />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="@string/atmospheric_pressure_units"
+                        />
 
+            </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
-</LinearLayout>
-    <TextView
-            android:id="@+id/widget_temperature"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:textSize="12sp"
-            android:gravity="center"
-            android:text="Обновлено  минут назад"
-            />
+
 </LinearLayout>

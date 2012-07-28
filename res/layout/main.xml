@@ -25,7 +25,7 @@
                      android:stretchColumns="0"
                      android:layout_margin="5dip"
                 >
-            <TableRow >
+            <TableRow>
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
                         android:layout_marginLeft="5dip"
                         />
             </TableRow>
-         </TableLayout>
+        </TableLayout>
     </TableRow>
     <TableRow>
         <TextView
@@ -100,8 +100,7 @@
     <TableRow>
         <ListView android:id="@+id/forecast"
                   android:layout_span="4"
-        >
-
+                >
         </ListView>
     </TableRow>
 </TableLayout>

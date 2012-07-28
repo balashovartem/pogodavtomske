@@ -33,5 +33,5 @@
     <string name="refresh_title">refresh</string>
 
     <string name="recive_weather_error">Recive weather error</string>
-
+    <string name="update">Last update</string>
 </resources>

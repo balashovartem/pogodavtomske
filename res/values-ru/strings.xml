@@ -34,4 +34,6 @@
 
     <string name="recive_weather_error">Ошибка интернет соединения</string>
 
+    <string name="update">Обновлено</string>
+
 </resources>
