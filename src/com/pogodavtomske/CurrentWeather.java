@@ -1,6 +1,5 @@
 package com.pogodavtomske;
 
-import android.graphics.Bitmap;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -11,54 +10,47 @@ import android.os.Parcelable;
  * Time: 22:24
  * To change this template use File | Settings | File Templates.
  */
-public class CurrentWeather  extends Object implements Parcelable
-{
-    public Bitmap ImageSrc;
+public class CurrentWeather extends Object implements Parcelable {
+    public String ImageSrc;
     public String Temperature;
     public String Wind;
     public String Humanity;
     public String Pressure;
 
     @Override
-    public int describeContents()
-    {
+    public int describeContents() {
         return 0;
     }
 
     @Override
-    public void writeToParcel(Parcel dest, int flags)
-    {
-        dest.writeString( Temperature );
-        dest.writeString( Wind );
-        dest.writeString( Humanity );
-        dest.writeString( Pressure );
-        ImageSrc.writeToParcel( dest, flags);
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(ImageSrc);
+        dest.writeString(Temperature);
+        dest.writeString(Wind);
+        dest.writeString(Humanity);
+        dest.writeString(Pressure);
     }
 
     public static final Parcelable.Creator<CurrentWeather> CREATOR
-            = new Parcelable.Creator<CurrentWeather>()
-    {
-        public CurrentWeather createFromParcel(Parcel in)
-        {
+            = new Parcelable.Creator<CurrentWeather>() {
+        public CurrentWeather createFromParcel(Parcel in) {
             return new CurrentWeather(in);
         }
 
-        public CurrentWeather[] newArray(int size)
-        {
+        public CurrentWeather[] newArray(int size) {
             return new CurrentWeather[size];
         }
     };
 
-    private CurrentWeather(Parcel in)
-    {
+    private CurrentWeather(Parcel in) {
+        ImageSrc = in.readString();
         Temperature = in.readString();
         Wind = in.readString();
         Humanity = in.readString();
         Pressure = in.readString();
-        ImageSrc = Bitmap.CREATOR.createFromParcel( in );
     }
-    public CurrentWeather()
-    {
+
+    public CurrentWeather() {
 
     }
 }

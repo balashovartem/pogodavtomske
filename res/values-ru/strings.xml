@@ -23,12 +23,12 @@
     <string name="forecast_today">сегодня</string>
     <string name="forecast_tomorrow">завтра</string>
 
-    <string name="loading_title">Пожалуйста подождите</string>
+    <string name="loading_title">Пожалуйста, подождите</string>
     <string name="loading_description">Идет загрузка данных</string>
 
     <string name="preferences_title">Настройки</string>
     <string name="preferences_update_interval">Интервал обновления</string>
-    <string name="preferences_update_interval_summary">Время, через которое погода будет обновлятся</string>
+    <string name="preferences_update_interval_summary">Время, через которое погода будет обновляться</string>
 
     <string name="refresh_title">Обновить</string>
 

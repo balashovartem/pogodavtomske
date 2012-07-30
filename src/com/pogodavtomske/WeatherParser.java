@@ -2,8 +2,6 @@ package com.pogodavtomske;
 
 import android.content.Context;
 import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import org.htmlcleaner.TagNode;
 
 import java.io.File;
@@ -33,7 +31,7 @@ public class WeatherParser {
         cacheDir = aCacheDir;
         context = aContext;
 
-        hh = new HtmlHelper(new URL("http://m.pogodavtomske.ru/"));
+        hh = new HtmlHelper(url);
         parseCurrentWeather();
 
         List<TagNode> weatherTables = hh.getTableByClass("weather");
@@ -109,7 +107,8 @@ public class WeatherParser {
         }
     }
 
-    public Bitmap getBitmapFromURL(String src) {
+    public String getBitmapFromURL(String src) {
+        String resourcePath = null;
         String srcFileName = null;
         Pattern p = Pattern.compile(".+/(.+).png");
         Matcher m = p.matcher(src);
@@ -122,12 +121,12 @@ public class WeatherParser {
         Resources res = context.getResources();
         int imageResource = res.getIdentifier("drawable/cache_weather_" + srcFileName, null, context.getPackageName());
         if (imageResource == 0) {
-            Bitmap myBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.undefine);
-            return myBitmap;
-        }
 
-        Bitmap myBitmap = BitmapFactory.decodeResource(context.getResources(), imageResource);
-        return myBitmap;
+            resourcePath = "drawable/undefine.png";
+            return resourcePath;
+        }
+        resourcePath = "drawable/cache_weather_" + srcFileName;
+        return resourcePath;
     }
 
     CurrentWeather current() {

@@ -88,7 +88,6 @@ public class WeatherActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        stopService(new Intent(this, WeatherService.class));
     }
 
     private void drawNullWeather() {
@@ -122,7 +121,12 @@ public class WeatherActivity extends Activity {
         pressureView.setText(weather.Pressure);
 
         final ImageView weatherImg = (ImageView) findViewById(R.id.current_weather_image);
-        weatherImg.setImageBitmap(weather.ImageSrc);
+        weatherImg.setImageBitmap(
+                BitmapFactory.decodeResource(
+                        getResources(),
+                        getResources().getIdentifier(weather.ImageSrc, null, getPackageName())
+                )
+        );
 
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         String currentDateandTime = sdf.format(new Date());

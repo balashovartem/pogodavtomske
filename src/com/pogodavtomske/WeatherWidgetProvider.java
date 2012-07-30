@@ -8,7 +8,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.widget.RemoteViews;
-import android.widget.Toast;
 
 /**
  * Created by IntelliJ IDEA.
@@ -21,16 +20,27 @@ public class WeatherWidgetProvider extends AppWidgetProvider {
     @Override
     public void onEnabled(Context context) {
         super.onEnabled(context);
+        drawNullWeather(context);
+        context.startService(new Intent(context, WeatherService.class));
     }
 
     @Override
     public void onUpdate(final Context context, final AppWidgetManager appWidgetManager, final int[] appWidgetIds) {
-        drawNullWeather(context);
-        context.startService(new Intent(context, WeatherService.class));
 
-        initWidget(context, appWidgetManager, appWidgetIds);
+        final int N = appWidgetIds.length;
+        for (int i = 0; i < N; i++) {
+            int appWidgetId = appWidgetIds[i];
+            Intent intent = new Intent(context, WeatherActivity.class);
+            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
+            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.weather_widget);
+            views.setOnClickPendingIntent(R.id.weather_widget, pendingIntent);
+            appWidgetManager.updateAppWidget(appWidgetId, views);
+        }
 
-        super.onUpdate(context, appWidgetManager, appWidgetIds);
+        Intent intentRequestWeather = new Intent();
+        intentRequestWeather.setAction(WeatherService.ACTION_REQUEST_WEATHER);
+        context.sendBroadcast(intentRequestWeather);
+
     }
 
     @Override
@@ -44,7 +54,6 @@ public class WeatherWidgetProvider extends AppWidgetProvider {
         }
         if (WeatherService.ACTION_ERROR_WEATHER.contains(action)) {
             drawNullWeather(context);
-            Toast.makeText(context, intent.getStringExtra("msg"), Toast.LENGTH_LONG).show();
         }
     }
 
@@ -53,7 +62,15 @@ public class WeatherWidgetProvider extends AppWidgetProvider {
         remoteViews.setTextViewText(R.id.widget_temperature, weather.Temperature);
         remoteViews.setTextViewText(R.id.widget_wind, weather.Wind);
         remoteViews.setTextViewText(R.id.widget_pressure, weather.Pressure);
-        remoteViews.setBitmap(R.id.widget_weather_image, "setImageBitmap", weather.ImageSrc);
+        remoteViews.setBitmap(
+                R.id.widget_weather_image,
+                "setImageBitmap",
+                BitmapFactory.decodeResource(
+                        context.getResources(),
+                        context.getResources().getIdentifier(weather.ImageSrc, null, context.getPackageName())
+                )
+        );
+
 
         ComponentName comp = new ComponentName(context.getPackageName(), WeatherWidgetProvider.class.getName());
         AppWidgetManager.getInstance(context).updateAppWidget(comp, remoteViews);
@@ -74,22 +91,5 @@ public class WeatherWidgetProvider extends AppWidgetProvider {
         AppWidgetManager.getInstance(context).updateAppWidget(comp, remoteViews);
     }
 
-    private void initWidget(final Context context, final AppWidgetManager appWidgetManager, final int[] appWidgetIds) {
-        final int N = appWidgetIds.length;
-        for (int i = 0; i < N; i++) {
-            int appWidgetId = appWidgetIds[i];
-
-            Intent intentRequestWeather = new Intent();
-            intentRequestWeather.setAction(WeatherService.ACTION_REQUEST_WEATHER);
-            context.sendBroadcast(intentRequestWeather);
-
-            Intent intent = new Intent(context, WeatherActivity.class);
-            PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
-
-            RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.weather_widget);
-            views.setOnClickPendingIntent(R.id.weather_widget, pendingIntent);
-            appWidgetManager.updateAppWidget(appWidgetId, views);
-        }
-    }
 }
 
