@@ -3,22 +3,30 @@
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
-        <option name="device" value="5.1in WVGA" />
+        <option name="device" value="7in WSVGA (Tablet)" />
         <option name="dockMode" value="" />
         <option name="nightMode" value="notnight" />
         <option name="targetHashString" value="android-10" />
         <option name="theme" value="Theme" />
       </GlobalState>
     </option>
+    <device-configurations>
+      <entry key="file://$PROJECT_DIR$/res/layout-xlarge-land/main.xml" value="Landscape" />
+    </device-configurations>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b220b4-7583-436c-b164-d66e13e7c223" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-large-land/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-large-land/weather_forecast_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-normal-land/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-xlarge-land/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-xlarge-land/weather_forecast_item.xml" />
+      <change type="MOVED" beforePath="C:\Users\Artem\Documents\projects\pogodavtomske\res\layout-land\main.xml" afterPath="$PROJECT_DIR$/res/layout-small-land/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/main.xml" afterPath="$PROJECT_DIR$/res/layout-land/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java" afterPath="$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java" />
     </list>
     <ignored path="pogodavtomske.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,73 +91,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WeatherActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-xlarge-land/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="3114" selection-end="3114" vertical-scroll-proportion="0.0">
+            <state line="20" column="22" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preferences.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-normal-land/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+            <state line="17" column="45" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-small-land/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="675" selection-end="720" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+        <entry file="file://$PROJECT_DIR$/res/layout-large-land/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="459" selection-end="459" vertical-scroll-proportion="0.39534885">
+            <state line="27" column="64" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.40289256">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HtmlHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/HtmlHelper.java">
+      <file leaf-file-name="weather_forecast_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-large-land/weather_forecast_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="123" column="50" selection-start="5601" selection-end="5601" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preferences.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/Preferences.java">
+      <file leaf-file-name="WeatherActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matcher.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-10/android.jar!/java/util/regex/Matcher.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="19" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForecastWeather.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/ForecastWeather.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="35" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherWidgetProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherWidgetProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="22" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0">
+            <state line="116" column="90" selection-start="4276" selection-end="4276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,7 +148,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="46" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+            <state line="16" column="52" selection-start="715" selection-end="741" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,6 +158,24 @@
         <entry file="file://$PROJECT_DIR$/res/layout/weather_widget.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="52" column="24" selection-start="2397" selection-end="2420" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather_forecast_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/weather_forecast_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="64" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weather_forecast_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-xlarge-land/weather_forecast_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="46" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-7.677419">
               <folding />
             </state>
           </provider>
@@ -192,12 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/pogodavtomske/GraphicsActivity.java" />
-        <option value="$PROJECT_DIR$/res/xml/weather_widget_provider_info.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/xml/preferences.xml" />
-        <option value="$PROJECT_DIR$/res/values-ru/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/pogodavtomske/WeatherService.java" />
         <option value="$PROJECT_DIR$/src/com/pogodavtomske/ForecastWeather.java" />
         <option value="$PROJECT_DIR$/src/com/pogodavtomske/WeatherParser.java" />
@@ -205,9 +207,15 @@
         <option value="$PROJECT_DIR$/src/com/pogodavtomske/ForecastWeatherAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/weather_widget.xml" />
         <option value="$PROJECT_DIR$/src/com/pogodavtomske/WeatherWidgetProvider.java" />
-        <option value="$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout-small-land/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout-normal-land/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout-xlarge-land/weather_forecast_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout-large-land/weather_forecast_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout-xlarge-land/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout-large-land/main.xml" />
       </list>
     </option>
   </component>
@@ -256,20 +264,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pogodavtomske" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pogodavtomske" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,8 +313,22 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
+              <option name="myItemId" value="pogodavtomske" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pogodavtomske" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-xlarge-land" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,6 +345,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-small-land" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -352,7 +364,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout-land" />
+              <option name="myItemId" value="layout-normal-land" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pogodavtomske" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pogodavtomske" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-large-land" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,32 +404,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="pogodavtomske" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pogodavtomske" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pogodavtomske" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pogodavtomske" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -421,14 +437,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="C:\Users\Artem\Google Drive\programming\android\pogodavtomske\pogodavtomske.apk" />
-    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="ExportedApkPath" value="C:\Users\Artem\Google Drive\programming\android\pogodavtomske\pogodavtomske.apk" />
     <property name="ExportedModule" value="pogodavtomske" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="pogodavtomske" />
     <property name="DEBUGGABLE_DEVICE" value="SH17ETR14779" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="pogodavtomske" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="DEBUGGABLE_PROCESS" value="com.example" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -448,9 +464,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Artem\Documents\projects\pogodavtomske\res\layout-large-land" />
+      <recent name="C:\Users\Artem\Documents\projects\pogodavtomske\res\layout-xlarge-land" />
+      <recent name="C:\Users\Artem\Documents\projects\pogodavtomske\res\layout-normal-land" />
       <recent name="C:\Users\Artem\Documents\projects\pogodavtomske\res\values-ru" />
       <recent name="C:\Users\Artem\Documents\projects\pogodavtomske\res\values-rRU" />
-      <recent name="C:\Users\Artem\Google Drive\programming\android\pogodavtomske\res\layout-land" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Artem\Documents\projects\pogodavtomske\res\layout-small-land" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.pogodavtomske">
@@ -499,6 +520,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -524,24 +563,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -618,8 +639,8 @@
       <option name="ACTIVITY_CLASS" value="com.pogodavtomske.WeatherActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="PREFERRED_AVD" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="someTablet" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -682,7 +703,11 @@
       <created>1343614187946</created>
       <updated>1343614187946</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Переделал отображение главного activity.">
+      <created>1343665144389</created>
+      <updated>1343665144389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -707,29 +732,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1698" height="1020" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32595325" sideWeight="0.6801427" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26629767" sideWeight="0.7146254" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973205" sideWeight="0.6727899" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3959572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32223544" sideWeight="0.51045513" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28537455" sideWeight="0.5227552" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32223544" sideWeight="0.48523986" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26322263" sideWeight="0.6801427" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3198573" sideWeight="0.47539976" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26322263" sideWeight="0.7146254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28537455" sideWeight="0.47293973" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295063" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936978" sideWeight="0.49753997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39952436" sideWeight="0.49753997" order="5" side_tool="false" content_ui="tabs" />
@@ -776,7 +801,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="в структуре данных поменял Bitmap на String. Картинка теперь грузиться из ресурсов непосредственно перед отображением пользователю. Работает под 4.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделал отображение главного activity." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -794,6 +819,7 @@
     <MESSAGE value="Поменял настройки языка" />
     <MESSAGE value="Убрал оповещение о отсутсвии интернета. Добавил время последнего обновления" />
     <MESSAGE value="в структуре данных поменял Bitmap на String. Картинка теперь грузиться из ресурсов непосредственно перед отображением пользователю. Работает под 4.0.4" />
+    <MESSAGE value="Переделал отображение главного activity." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -803,36 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/update_interval.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/weather_widget_provider_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="86" selection-start="4180" selection-end="4211" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/CurrentWeather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/ForecastWeatherAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/GraphicsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/HtmlHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" />
@@ -858,16 +854,9 @@
         <state line="36" column="22" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="3114" selection-end="3114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" />
+        <state line="125" column="86" selection-start="4180" selection-end="4211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/weather_widget.xml">
@@ -877,16 +866,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/weather_forecast_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="46" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+        <state line="7" column="64" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout-small-land/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="459" selection-end="459" vertical-scroll-proportion="0.39534885">
+        <state line="17" column="0" selection-start="675" selection-end="720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-xlarge-land/weather_forecast_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="46" selection-start="1688" selection-end="1688" vertical-scroll-proportion="-7.677419">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-large-land/weather_forecast_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="50" selection-start="5601" selection-end="5601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-normal-land/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-xlarge-land/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pogodavtomske/WeatherActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="90" selection-start="4276" selection-end="4276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="52" selection-start="715" selection-end="741" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-large-land/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="64" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.40289256">
           <folding />
         </state>
       </provider>

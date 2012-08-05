@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_margin="5sp"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+
+        <TextView
+                android:id="@+id/forecast_date"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="right"
+                android:text="12 September"
+                android:textSize="30sp"
+                />
+        <TextView
+                android:id="@+id/forecast_alias"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Monday"
+                android:textSize="30sp"
+                android:gravity="right"
+                />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+            >
+        >
+        <ImageView
+                android:id="@+id/forecast_weather_image"
+                android:src="@drawable/undefine"
+                android:layout_width="50sp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="10sp"
+                />
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:stretchColumns="0,3"
+                >
+            <TableRow>
+                <TextView
+                        android:text="@string/forecast_day"
+                        android:textSize="25sp"
+                        />
+                <TextView
+                        android:id="@+id/forecast_temperature_day"
+                        android:text="+30"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        />
+                <TextView
+                        android:text="@string/temperature_units"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="10sp"
+                        />
+
+                <TextView
+                        android:text="@string/forecast_wind"
+                        android:textSize="25sp"
+                        />
+                <TextView
+                        android:id="@+id/forecast_wind"
+                        android:text="10"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        />
+                <TextView
+                        android:text="@string/wind_units"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        android:layout_marginLeft="5sp"
+                        />
+            </TableRow>
+            <TableRow>
+                <TextView
+                        android:text="@string/forecast_night"
+                        android:textSize="25sp"
+                        />
+                <TextView
+                        android:id="@+id/forecast_temperature_night"
+                        android:text="+20"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        />
+                <TextView
+                        android:text="@string/temperature_units"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="10sp"
+                        />
+                <TextView
+                        android:text="@string/forecast_atmospheric_pressure"
+                        android:textSize="25sp"
+                        />
+                <TextView
+                        android:id="@+id/forecast_atmospheric_pressure"
+                        android:text="576"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        />
+                <TextView
+                        android:text="@string/atmospheric_pressure_units"
+                        android:textColor="#FCC600"
+                        android:textSize="25sp"
+                        android:gravity="right"
+                        android:layout_marginLeft="5sp"
+                        />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
